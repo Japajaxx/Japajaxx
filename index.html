@@ -22,6 +22,8 @@
     <img src="images/Me.png" height="250" alt="It's me" title="It's me">
     <hr>
 
+    <!--<iframe src="ad.html" width="750" height="100">-->
+
     <h2 style="color: #004e0d">It all started when I discovered wheels.</h2>
     <h3 style="color: #003f0a">It all started when I discovered wheels.</h3>
     <h4 style="color: #002e08">It all started when I discovered wheels.</h4>
@@ -106,6 +108,90 @@
     </table>
     <hr>
 
+    <form>
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Yes" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Man" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" maxlength="4" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="phone">Phone #:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="bdate">Last Day Of Your Life:</label>
+            <input type="date" id="bdate" name="bdate" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="title">Which of these are you?:</label>
+
+            <label for="cg">A Cool Guy</label>
+            <input type="radio" id="cg" name="title" value="cg">
+
+            <label for="ceg">A Cooler Guy</label>
+            <input type="radio" id="ceg" name="title" value="ceg">
+
+            <label for="cncaag">A Not Cool At All Guy</label>
+            <input type="radio" id="cncaag" name="title" value="cncaag">
+            <div>
+            <br>
+                <label for="payment">Payment:</label>
+                <select id="quantity" name="quantity">
+                    <option value="credit">Credit</option>
+                    <option value="cash">Cash</option>
+                    <option value="your_blood">Your Blood</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="lyme_disease">Receive Lyme Disease:</label>
+                <input type="checkbox" id="lyme_disease" name="lyme_disease" required>
+            </div>
+            <br>
+
+        </div>
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form><br>
+
     <a href="https://booklive.jp/" target ="_blank" title ="漫画 読む">
         Booklive
     </a>
@@ -114,6 +200,14 @@
         Page 2
     </a><br><br>
 
+    <button onclick="doSomething()" style="background-color: #00b818;border-radius: 5px;">Button</button><br>
+    <h3 id="test">Click The Button To Win</h3>
+
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML="You Win";
+        }
+    </script>
     <audio controls src="audio/A_Good_Buddy.mp3">
 </body>
 
