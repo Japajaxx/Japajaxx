@@ -1,0 +1,42 @@
+body{
+    background-color: #e9e9e9;
+}
+
+.titlep{
+    color: #0c004e;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    text-align: center;
+}
+
+.wheels{
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:double;
+}
+
+.mainp{
+    background-color: #b4b4b4;
+    font-family: "Courier New";
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: #009fcf;
+    font-size: 20px;
+    border-style:solid;
+}
+
+.submainp{
+    text-align: center;
+    background-color: #8b8b8b;
+    font-family: "Times New Roman";
+    border-style: dotted;
+    border-width: 8px;
+    border-color:#a6ff00;
+    border-radius: 5px;
+    padding: 5px;
+}
