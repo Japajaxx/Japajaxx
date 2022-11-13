@@ -5,10 +5,11 @@ body{
 }
 
 .titlep{
-    color: #0c004e;
+    color: #13007e;
     border-top-style: solid;
     border-bottom-style: solid;
     text-align: center;
+    text-shadow: 0px 0px 4px #240029, 0px -3px 6px #4e0083;
 }
 
 .wheels{
@@ -54,8 +55,59 @@ body{
 }
 
 #funk{
-    background-color: rgb(32, 32, 32);
+    background-color: #1d1d1d;
     border-style:dotted;
     border-color: #99007f;
     border-radius: 7px;
+}
+
+#box7{
+    margin-left: 70%;
+    position: absolute;
+    text-align: center;
+    border: 4px solid;
+    width: 400px;
+    height: 112px;
+    font-size: 75px;
+    background-color: #ff4949;
+    /* transform: matrix(2, 1, 1, 0, 1, 1);
+    transform: skew(20deg, 20deg);
+    transform: rotate(10px);
+    animation: mySlide;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 40s; */
+}
+
+@keyframes theSlide{
+    from{margin-left: 100%;}
+    to{margin-left: 50%;}
+}
+
+#sokoani{
+    text-align: center;
+}
+
+a:link{
+    color:#0300b3;
+}
+
+a:visited{
+    color:#3c90ff;
+}
+
+a:hover{
+    color:#aa00b9;
+}
+
+a:active{
+    color:#4e0055;
+}
+
+li:nth-child(even){
+    background-color: #c9ffe6;
+}
+
+li:nth-child(odd){
+    background-color: #c9ebff;
 }
